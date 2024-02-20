@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+}
+
+/* ----------------Navbar--------------- */
+#nav{
+    position: relative;
+    padding: 2vw 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nleft{
+    display: flex;
+    gap: 20px;
+}
+#centerAnchor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* ----------------hero--------------- */
+#hero{
+    width: 100%;
+    margin-top: 10vw;
+    padding: 0vw 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* ----------------Sustain--------------- */
+#sustain{
+    width: 12vw;
+}
+#sustain h2{
+    line-height: 20px;
+}
+#sustain p{
+    font-size: 11px;
+    padding: 14px 0 12px;
+    line-height: 13px;
+    text-transform: capitalize;
+}
+#susimgwrapper{
+    width: 100%;
+    height: 15vw;
+    position: relative;
+    overflow: hidden;
+}
+#susimgwrapper img{
+    width: 100%;
+    object-fit: cover;
+}
+/* ----------------Ephemeral--------------- */
+#ephemeral{
+    position: relative;
+    width: 26vw;
+}
+#headings{
+    position: absolute;
+    top: -15%;
+    left: -9%;
+}
+#ephemeral h1{
+    font-size: 5vw;
+    letter-spacing: -2px;
+    font-weight: 300;
+    line-height: 4.6vw;
+}
+#imagentext{
+    width: fit-content;
+    height: fit-content;
+}
+#imagentext img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#imagentext p{
+    font-size: 1.2vw;
+    width: 50%;
+    line-height: 1.5vw;
+    font-weight: 600;
+    padding: 1vw 0;
+}
+/* ----------------Visit--------------- */
+#visit{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#circlev{
+    border-radius: 50%;
+    border: 1px solid #5e5e5e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3vw;
+    height: 3vw;
+}
+#circlev i{
+    color: #5e5e5e;
+}
+#visit h3{
+    color: #5e5e5e;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+/* ----------------Motive--------------- */
+#motive{
+    padding: 8vw 10vw;
+}
+#motive h3{
+    font-weight: 200;
+    opacity: 0.7;
+    font-size: 16px;
+}
+#motive p{
+    font-size: 2.2vw;
+    text-align: right;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+#motive span{
+    display: inline-block;
+    height: 29px;
+    margin: 0 3px;
+    border-radius: 100px;
+    margin-bottom: -7px;
+}
+#span1,#span2,#span3{
+    width: 50px;
+    background-image: url("./images/bluegirl.jpg");
+    background-size: cover;
+    background-position: 0% 60%;
+}
+#span2{
+    width: 80px;
+    background-image: url("./images/shaljam.jpg");
+    background-position: 0% 50%;
+}
+#span3{
+    width: 60px;
+    background-image: url("./images/grass.jpg");
+}
+
+/* ----------------Picture--------------- */
+#picture{
+    padding: 3vw 12vw 3vw 14vw;
+    display: flex;
+    justify-content: space-between;
+}
+/* ------firstpic------ */
+#firstpic{
+    width: 17vw;
+}
+#picimg{
+    width: 100%;
+    height: 24vw;
+    margin-bottom: .8vw;
+}
+#picimg img{
+    width: 100%;
+    height: 100%;   
+}
+#firstpic h1{
+    font-size: 20px;
+}
+#firstpic p{    
+    font-size: 15px;
+}
+/* ------secpic------ */
+#secpic{
+    width: 24vw;
+    text-align: right;
+}
+#secpic #picimg{
+    width: 100%;
+    height: 38vw;
+    margin-bottom: .8vw;
+}
+#secpic h1{
+    font-size: 21px;
+}
+#secpic p{    
+    font-size: 17px;
+}
+
+/* ----------------Banner--------------- */
+#banner{
+    width: 100%;
+    margin-top: 8vw;
+    display:flex ;
+    align-items: center;
+}
+#bimg{
+    width: 67%;
+    height: 63vh; 
+}
+#bimg img{
+    width: 100%;
+    height: 100%; 
+    object-position: 0% 74%;
+    object-fit: cover;
+}
+#btext{
+    width: 35%;
+    padding: 0 3vw;
+}
+#btext h1{
+    font-size: 2.8vw;
+    font-weight: 300;
+    letter-spacing: -.5px;
+    line-height: 2.3vw;
+}
+#btext p{
+    margin-top: 18px;
+    width: 60%;
+    font-size: 1.2vw;
+    line-height: 1.3vw;
+}
+
+
+
+/* ----------------Future--------------- */
+#future{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+}
+#future video{
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width: 100%;
+}
+#ftext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+#ftext h1{
+    font-weight: 300;
+}
+#ftext button{
+    padding: .8vw 1.7vw;
+    font: .7vw;
+    font-weight: 700;
+    margin-top: 10px;
+    border-radius: 100px;
+    background-color: transparent;
+    border: 1px solid #c6c6c6;
+    color: #6f6f6f;
+    cursor: pointer;
+}
+
+
